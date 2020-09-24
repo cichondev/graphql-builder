@@ -4,7 +4,8 @@ With this package you can build GraphQL queries using OOP, with a fluent interfa
 
 ## Example
 
-`
+```php
+
 <?php 
 
 $query = GraphQLBuilder\Query::create('dogs')
@@ -15,4 +16,4 @@ echo $query;
 ?>
 
 Output: "uery dogs { dogs(breed: "viralata") { id, age, size, color } }"
-`
+```
